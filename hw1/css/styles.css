@@ -1,0 +1,143 @@
+nav {
+    background-color: #212189;
+    /* Set background color for navigation */
+    padding: 1rem;
+    /* Add padding around navigation links */
+
+}
+
+h1 {
+    text-align: center;
+    /* Center the heading */
+    font-size: 3rem;
+    /* Set font size for the heading */
+    color: #212189;
+    /* Set text color for the heading */
+}
+
+nav a {
+    display: inline-block;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-decoration: none;
+
+    /* Remove underline from links */
+}
+
+nav a:hover {
+    color: #fff;
+    /* Change link color on hover */
+    background-color: #212189;
+    padding-bottom: .5rem;
+    font-size: 2rem;
+    /* Increase font size on hover */
+    border-bottom: 2px solid orange;
+    /* Add a bottom border on hover */
+}
+
+article {
+
+    justify-content: right;
+
+    padding: .5rem;
+    background-color: #ffffff;
+    /* Set background color for the article */
+}
+
+main {
+    display: grid;
+    /* Use grid for layout */
+    grid-template-columns: 12rem minmax(0, 1fr) minmax(0, 1fr);
+    /* Define three columns: fixed width for the first, flexible for the others */
+    gap: 2rem;
+    align-items: start;
+    /* Align items to the start of the grid */
+}
+
+figure {
+    margin: 0;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    /* Make images responsive */
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+    font-size: .75rem;
+    color: #ffffff;
+    background-color: #212189;
+}
+
+#current-page {
+    font-weight: bold;
+    /* Make the current page link bold */
+    text-decoration: underline;
+    /* Underline the current page link */
+}
+
+#menu-topics {
+
+    justify-content: left;
+    padding: 3rem;
+    gap: 2rem;
+    list-style-type: none;
+    background-color: #212189;
+    color: #ffffff;
+}
+
+/* .menu-content {
+    justify-content: left;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-decoration: none;
+    list-style-type: none;
+} */
+
+
+
+#overview-topics {
+    justify-content: left;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #ffffff;
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+li a:hover {
+
+    padding-bottom: .5rem;
+    font-size: 1.75rem;
+    /* Increase font size on hover */
+    border-bottom: 2px solid orange;
+    /* Add a bottom border on hover */
+}
+
+#overview-main {
+
+    /* Align items to the start of the grid */
+    display: block;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+
+}
+
+#topic-option {
+    display: block;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-decoration: none;
+}

@@ -1,0 +1,102 @@
+body {
+    /* background-color: white; */
+    background-image: url("../img/neon-quiz-background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-rows: auto 1fr auto auto;
+    min-height: 100dvh;
+    margin: 0;
+
+}
+
+header {
+    /* background-color: rgba(100, 100, 100, .8); */
+
+    color: white;
+
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 15px;
+
+}
+
+#main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: rgba(100, 100, 100, .8); */
+    color: white;
+    padding: 1 px;
+}
+
+#left-panel {
+    grid-column: 1;
+    font-size: 10rem;
+    text-align: center;
+    color: white;
+
+}
+
+#center-panel {
+    grid-column: 2;
+    text-align: center;
+    white-space: pre-line;
+    background-color: rgba(70, 70, 71, 0.5);
+
+}
+
+#right-panel {
+    grid-column: 3;
+    font-size: 10rem;
+    text-align: center;
+    color: white;
+}
+
+#guesses {
+    color: white;
+    font-size: 2rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+    gap: 5rem;
+    /* flex-wrap: wrap; */
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: black;
+}
+
+#misc {
+    display: grid;
+    grid-template-columns: auto auto;
+
+    background-color: rgba(70, 70, 71, 0.5);
+    color: white;
+    font-size: 1rem;
+    padding: auto;
+}
+
+#misc-left {
+    /* background-color: rgba(70, 70, 71, 0.5); */
+    color: white;
+    font-size: .75rem;
+    text-align: left;
+
+}
+
+#misc-right {
+    /* background-color: rgba(70, 70, 71, 0.5); */
+    color: white;
+    font-size: 1rem;
+    text-align: right;
+}
+
+a {
+    color: white;
+}
